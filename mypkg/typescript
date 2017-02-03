@@ -1,0 +1,195 @@
+スクリプトは 2017年02月03日 11時04分37秒
+ に開始しました]0;kinokoatama@kinokoatama-desktop: ~/catkin_ws/src/mypkgkinokoatama@kinokoatama-desktop:~/catkin_ws/src/mypkg$ src
+コマンド 'src' は見つかりませんでしたが、似たものが 26 個あります。
+src: コマンドが見つかりません
+]0;kinokoatama@kinokoatama-desktop: ~/catkin_ws/src/mypkgkinokoatama@kinokoatama-desktop:~/catkin_ws/src/mypkg$ scripts
+コマンド 'scripts' は見つかりませんでした。もしかして:
+ コマンド 'script6' - パッケージ 'ipv6toolkit' (universe)
+ コマンド 'script' - パッケージ 'bsdutils' (main)
+scripts: コマンドが見つかりません
+]0;kinokoatama@kinokoatama-desktop: ~/catkin_ws/src/mypkgkinokoatama@kinokoatama-desktop:~/catkin_ws/src/mypkg$ scripts[4Prcexitroscorevi twice.pyrosrun mypkg twice.py [11Pvi twice.pyrosrun mypkg twice.py [11Pvi twice.pyrosrun mypkg twice.py [11Pvi twice.py[1Ppycd scriptsls[Kcd scripts
+]0;kinokoatama@kinokoatama-desktop: ~/catkin_ws/src/mypkg/scriptskinokoatama@kinokoatama-desktop:~/catkin_ws/src/mypkg/scripts$ cd scripts[3Pscripts[4Prcexitroscorevi twice.py
+[?1049h[?1h=[1;24r[?12;25h[?12l[?25h[27m[23m[m[H[2J[?25l[24;1H"twice.py" 17L, 350C[1;1H#!/usr/bin/env python
+#-*- coding: utf-8 -*-
+import rospy
+from std_msgs.msg import Int32
+
+def cd(message):
+    if message.data == 0:[8;9Hprint('お')
+    else if message.data == 1:[11;4H# rospy.loginfo(message.data)
+
+if __name__=='__main__':
+    rospy.init_node('twice')
+    sub = rospy.Subscriber('count_up', Int32, cd)
+    rospy.spin()
+
+[1m[34m~                                                                               [19;1H~                                                                               [20;1H~                                                                               [21;1H~                                                                               [22;1H~                                                                               [23;1H~                                                                               [1;1H[?12l[?25h
+
+
+
+
+[md
+  
+   
+   [?25l[24;1H[1m-- INSERT --[m[24;13H[K[9;4H[?12l[?25h else[?25lif message.data == 1:[9;30H[K[9;9H[?12l[?25hif mes[8;15H[9;14H[10;8H[?25l [?12l[?25h[?25l [?12l[?25h [?25l [?12l[?25h[?25l [?12l[?25h[?25l [?12l[?25h    [?25lp[?12l[?25h[?25lr[?12l[?25h[?25li[?12l[?25h[?25ln[?12l[?25h[?25lt[?12l[?25h[?25l([?12l[?25h[?25l)[?12l[?25h[?25l')[?12l[?25h[?25l')[?12l[?25h[?25ln')[?12l[?25h[?25li')[?12l[?25h[?25l')[10;23H[K[10;21H[?12l[?25h[?25l')[10;22H[K[10;20H[?12l[?25h[?25lに')[?12l[?25h')[24;1H[K[10;23H[?25l[?12l[?25h[?25l[24;1H"twice.py" 17L, 366C written
+[?1l>[?12l[?25h[?1049l]0;kinokoatama@kinokoatama-desktop: ~/catkin_ws/src/mypkg/scriptskinokoatama@kinokoatama-desktop:~/catkin_ws/src/mypkg/scripts$ vi twice.py[1Pcd scripts[3Pscripts[4Prcexitroscorevi twice.pyrosrun mypkg twicee.py [A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Cwice.[1P[A]0;kinokoatama@kinokoatama-desktop: ~/catkin_ws/src/mypkg/scriptskinokoatama@kinokoatama-desktop:~/catkin_ws/src/mypkg/scripts$ [C[C[C[C[C[C[C[C[C[C[C[C[Cice.p[1P[A]0;kinokoatama@kinokoatama-desktop: ~/catkin_ws/src/mypkg/scriptskinokoatama@kinokoatama-desktop:~/catkin_ws/src/mypkg/scripts$ [C[C[C[C[C[C[C[C[C[C[C[C[Cce.py[1P [A]0;kinokoatama@kinokoatama-desktop: ~/catkin_ws/src/mypkg/scriptskinokoatama@kinokoatama-desktop:~/catkin_ws/src/mypkg/scripts$ [C[C[C[C[C[C[C[C[C[C[C[C[Ce.py [K[A]0;kinokoatama@kinokoatama-desktop: ~/catkin_ws/src/mypkg/scriptskinokoatama@kinokoatama-desktop:~/catkin_ws/src/mypkg/scripts$ [C[C[C[C[C[C[C[C[C[C[C[C[C.py  [K[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Cc.py  [A]0;kinokoatama@kinokoatama-desktop: ~/catkin_ws/src/mypkg/scriptskinokoatama@kinokoatama-desktop:~/catkin_ws/src/mypkg/scripts$ [C[C[C[C[C[C[C[C[C[C[C[C[C[Co.py [A]0;kinokoatama@kinokoatama-desktop: ~/catkin_ws/src/mypkg/scriptskinokoatama@kinokoatama-desktop:~/catkin_ws/src/mypkg/scripts$ [C[C[C[C[C[C[C[C[C[C[C[C[C[C[Cu.py [A]0;kinokoatama@kinokoatama-desktop: ~/catkin_ws/src/mypkg/scriptskinokoatama@kinokoatama-desktop:~/catkin_ws/src/mypkg/scripts$ [C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Cn.[1@p[1@t
+0
+1
+2
+3
+4
+5
+6
+7
+8
+9
+0
+1
+2
+3
+4
+5
+6
+7
+8
+9
+0
+1
+2
+3
+4
+5
+6
+7
+8
+9
+0
+1
+2
+3
+4
+5
+6
+7
+8
+9
+0
+1
+2
+3
+^C
+4
+^C5
+
+6
+^C7
+
+8
+^C9
+
+^C
+]0;kinokoatama@kinokoatama-desktop: ~/catkin_ws/src/mypkg/scriptskinokoatama@kinokoatama-desktop:~/catkin_ws/src/mypkg/scripts$ 
+]0;kinokoatama@kinokoatama-desktop: ~/catkin_ws/src/mypkg/scriptskinokoatama@kinokoatama-desktop:~/catkin_ws/src/mypkg/scripts$ rosrun mypkg countt.py [A]0;kinokoatama@kinokoatama-desktop: ~/catkin_ws/src/mypkg/scriptskinokoatama@kinokoatama-desktop:~/catkin_ws/src/mypkg/scripts$ [6Pvi twice.py
+[K[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[1Pcd scripts[3Pscripts[4Prcexitroscorevi twice.pyrosrun mypkg twicee.py [A]0;kinokoatama@kinokoatama-desktop: ~/catkin_ws/src/mypkg/scriptskinokoatama@kinokoatama-desktop:~/catkin_ws/src/mypkg/scripts$ [6Pvi twice.py
+[K[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Crosrun mypkg twicee.py [A]0;kinokoatama@kinokoatama-desktop: ~/catkin_ws/src/mypkg/scriptskinokoatama@kinokoatama-desktop:~/catkin_ws/src/mypkg/scripts$ [6Pvi twice.py
+[K[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Crosrun mypkg twicee.py [A]0;kinokoatama@kinokoatama-desktop: ~/catkin_ws/src/mypkg/scriptskinokoatama@kinokoatama-desktop:~/catkin_ws/src/mypkg/scripts$ [6Pvi twice.py
+[K[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[1Ppycd scriptsls[Kcd ~/catkin_ws/srcc/mypkg[A]0;kinokoatama@kinokoatama-desktop: ~/catkin_ws/src/mypkg/scriptskinokoatama@kinokoatama-desktop:~/catkin_ws/src/mypkg/scripts$ [7Pvi twicepy
+[K[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Ccd ~/catkin_ws/srcc/mypkg[A]0;kinokoatama@kinokoatama-desktop: ~/catkin_ws/src/mypkg/scriptskinokoatama@kinokoatama-desktop:~/catkin_ws/src/mypkg/scripts$ ls[K
+[K[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Ccd scriptsvi twicepy.pyrosrun mypkg twicee.py [A]0;kinokoatama@kinokoatama-desktop: ~/catkin_ws/src/mypkg/scriptskinokoatama@kinokoatama-desktop:~/catkin_ws/src/mypkg/scripts$ [6Pvi twice.py
+[K[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Crosrun mypkg twicee.py [A]0;kinokoatama@kinokoatama-desktop: ~/catkin_ws/src/mypkg/scriptskinokoatama@kinokoatama-desktop:~/catkin_ws/src/mypkg/scripts$ [6Pvi twice.py
+[K[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[1Pwice.py[1Pice.py[1Pce.py[1Pe.py[1P.pyc.pyo.pyu.pyn.pyt.py
+[?1049h[?1h=[1;24r[?12;25h[?12l[?25h[27m[23m[m[H[2J[?25l[24;1H"count.py" 17L, 382C[1;1H#!/usr/bin/env python
+import rospy
+import time
+from std_msgs.msg import Int32
+
+if __name__=='__main__':
+    rospy.init_node('count')
+    pub = rospy.Publisher('count_up',Int32,queue_size=1)
+   #rate = rospy.Rate(1)
+    n=0
+    while not rospy.is_shutdown():[12;9Hfor n in range(10):[13;13Hpub.publish(n)[14;13Hprint(n)[15;13Htime.sleep(1)[16;8H#rate.sleep()
+
+[1m[34m~                                                                               [19;1H~                                                                               [20;1H~                                                                               [21;1H~                                                                               [22;1H~                                                                               [23;1H~                                                                               [1;1H[?12l[?25h
+
+
+
+
+
+
+[m    pub = rospy.[9;17H[10;7H[11;17H[12;17H[13;17Hpu[12;19Hange(1[?25l):[12;27H[K[12;25H[?12l[?25h[?25l[24;1H[1m-- INSERT --[m[24;13H[K[12;25H[?12l[?25h[?25l1):[?12l[?25h)[24;1H[K[12;26H[?25l[?12l[?25h[?25l[24;1H"count.py" 17L, 382C written
+[?1l>[?12l[?25h[?1049l]0;kinokoatama@kinokoatama-desktop: ~/catkin_ws/src/mypkg/scriptskinokoatama@kinokoatama-desktop:~/catkin_ws/src/mypkg/scripts$ Z[C[Kvi count.pyrosrun mypkg countt.py 
+0
+1
+2
+3
+4
+5
+6
+7
+8
+9
+10
+0
+1
+2
+3
+4
+5
+6
+7
+8
+9
+10
+0
+1
+2
+3
+4
+5
+6
+7
+8
+9
+10
+0
+1
+2
+3
+4
+5
+6
+^C7
+^C8
+^C9
+^C10
+^C]0;kinokoatama@kinokoatama-desktop: ~/catkin_ws/src/mypkg/scriptskinokoatama@kinokoatama-desktop:~/catkin_ws/src/mypkg/scripts$ 
+]0;kinokoatama@kinokoatama-desktop: ~/catkin_ws/src/mypkg/scriptskinokoatama@kinokoatama-desktop:~/catkin_ws/src/mypkg/scripts$ rosrun mypkg countt.py 
+0
+1
+2
+3
+4
+5
+6
+7
+8
+9
+^C10
+^C
+]0;kinokoatama@kinokoatama-desktop: ~/catkin_ws/src/mypkg/scriptskinokoatama@kinokoatama-desktop:~/catkin_ws/src/mypkg/scripts$ 
+]0;kinokoatama@kinokoatama-desktop: ~/catkin_ws/src/mypkg/scriptskinokoatama@kinokoatama-desktop:~/catkin_ws/src/mypkg/scripts$ rosrun mypkg countt.py [A]0;kinokoatama@kinokoatama-desktop: ~/catkin_ws/src/mypkg/scriptskinokoatama@kinokoatama-desktop:~/catkin_ws/src/mypkg/scripts$ [6Pvi count.py
+[K[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C
+[?1049h[?1h=[1;24r[?12;25h[?12l[?25h[27m[23m[m[H[2J[?25l[24;1H"count.py" 17L, 382C[1;1H#!/usr/bin/env python
+import rospy
+import time
+from std_msgs.msg import Int32
+
+if __name__=='__main__':
+    rospy.init_node('count')
+    pub = rospy.Publisher('count_up',Int32,queue_size=1)
+   #rate = rospy.Rate(1)
+    n=0
+    while not rospy.is_shutdown():[12;9Hfor n in range(11):[13;13Hpub.publish(n)[14;13Hprint(n)[15;13Htime.sleep(1)[16;8H#rate.sleep()
+
+[1m[34m
